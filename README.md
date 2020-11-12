@@ -1,24 +1,29 @@
-# README
+# POSTCODE CHECKER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+```
+./bin/setup
+```
 
-* Ruby version
+## Run
 
-* System dependencies
+```
+bundle exec rails server
+```
 
-* Configuration
+## Tests
 
-* Database creation
+```
+bundle exec rspec
+```
 
-* Database initialization
+## Screenshots
 
-* How to run the test suite
+### Success
 
-* Services (job queues, cache servers, search engines, etc.)
+![success](success.png)
 
-* Deployment instructions
+### Error
 
-* ...
+![error](error.png)
