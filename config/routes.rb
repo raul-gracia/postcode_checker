@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root to: redirect('/dashboard')
-  get '/dashboard', to: 'dashboard#index'
-  post '/dashboard', to: 'dashboard#check'
+  root to: "postcode#index"
+  post "/", to: "postcode#check"
 end
