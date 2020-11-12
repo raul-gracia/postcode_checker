@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 module PostcodeService
   class InvalidPostcodeError < StandardError
-    def initialize(msg = "The provided postcode is not valid")
+    def initialize(msg = 'The provided postcode is not valid')
       super(msg)
     end
   end

@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://postcodes.io/postcodes/SE3%204TA/validate
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Nov 2020 13:56:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '29'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de7f48272168e7d97300df40a4c84ef271605189405; expires=Sat, 12-Dec-20
+        13:56:45 GMT; path=/; domain=.postcodes.io; HttpOnly; SameSite=Lax
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"1d-kGyXwetKmZjsFg8WnsDgYjXmbe8"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '2635'
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=q%2Fi6GFhQxFBrpwyQZToElOfFKB9XrcS1i7KthIq1S26x%2FvAjzYrOBx5bIvp5ol%2FkQCj%2Ba68N0f0HnbP%2BEjCfaGVsZ03rtnCT1bJE8nA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f10c2161ab96b89-LHR
+    body:
+      encoding: UTF-8
+      string: '{"status":200,"result":false}'
+  recorded_at: Thu, 12 Nov 2020 13:56:45 GMT
+- request:
+    method: get
+    uri: https://postcodes.io/postcodes%2FSE3+4TA%2Fvalidate
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Nov 2020 14:01:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '29'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1d0310e5c7975afb267bf4e44687cfde1605189716; expires=Sat, 12-Dec-20
+        14:01:56 GMT; path=/; domain=.postcodes.io; HttpOnly; SameSite=Lax
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"1d-kGyXwetKmZjsFg8WnsDgYjXmbe8"
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=7yZ5GSKYHyTeD6reuaxwKXLxt5QlSh5sP1GVfL%2FrBGK9GkEQNvFD%2Be7dIKOPtBnPBh8U252niQb8MkiFewnyGuziwxo5oEJSrwiVhjM%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f10c9b31c3f06fd-LHR
+    body:
+      encoding: UTF-8
+      string: '{"status":200,"result":false}'
+  recorded_at: Thu, 12 Nov 2020 14:01:57 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,174 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://postcodes.io/postcodes/N1%208JG/validate
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Nov 2020 13:56:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '28'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d945e772be8ce5ea71a7bd83a8be56cf71605189404; expires=Sat, 12-Dec-20
+        13:56:44 GMT; path=/; domain=.postcodes.io; HttpOnly; SameSite=Lax
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"1c-sATL+LXeOWfLLqQwV2reomyUCpI"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '1127'
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=YAUpbuwnnDVAnWJxIepZNlvazmMWNt1RQwJMTo8ol0acg39GLCf9NlmhQadXlc7PbXlKAcoMse2mdnk6hCobjc7id256SbzKbDw%2FpwY%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f10c2147ab12ca9-LHR
+    body:
+      encoding: UTF-8
+      string: '{"status":200,"result":true}'
+  recorded_at: Thu, 12 Nov 2020 13:56:44 GMT
+- request:
+    method: get
+    uri: https://postcodes.io/postcodes/N1%208JG
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Nov 2020 13:56:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d6439722653d31b860c9d9ea78b94b34f1605189404; expires=Sat, 12-Dec-20
+        13:56:44 GMT; path=/; domain=.postcodes.io; HttpOnly; SameSite=Lax
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"328-hpVV1LTF4G1e0Sg+znWZZiJe3ZE"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '163443'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=KJDrxfHY0I32KGuAZrGjAWWXJBWYgdHbz9OomAd0ozu4gwGFwBlxW2kTKsk9PIYW4CCXwLmjBf%2BNtisSVy%2FNSQcgsZO6WQ8ZOulmcS8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f10c214cbc3bc0c-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":200,"result":{"postcode":"N1 8JG","quality":1,"eastings":531823,"northings":183564,"country":"England","nhs_ha":"London","longitude":-0.100772,"latitude":51.535597,"european_electoral_region":"London","primary_care_trust":"Islington","region":"London","lsoa":"Islington
+        020C","msoa":"Islington 020","incode":"8JG","outcode":"N1","parliamentary_constituency":"Islington
+        South and Finsbury","admin_district":"Islington","parish":"Islington, unparished
+        area","admin_county":null,"admin_ward":"St Peter''s","ced":null,"ccg":"NHS
+        North Central London","nuts":"Haringey and Islington","codes":{"admin_district":"E09000019","admin_county":"E99999999","admin_ward":"E05000380","parish":"E43000209","parliamentary_constituency":"E14000764","ccg":"E38000240","ccg_id":"93C","ced":"E99999999","nuts":"UKI43"}}}'
+  recorded_at: Thu, 12 Nov 2020 13:56:44 GMT
+- request:
+    method: get
+    uri: https://postcodes.io/postcodes%2FN1+8JG%2Fvalidate
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Nov 2020 14:01:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '29'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dde17b3117f5692729ce05d73e9d1449b1605189716; expires=Sat, 12-Dec-20
+        14:01:56 GMT; path=/; domain=.postcodes.io; HttpOnly; SameSite=Lax
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"1d-kGyXwetKmZjsFg8WnsDgYjXmbe8"
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=rUgWyM8qKO6Y%2BCV3vtRu85FJ1H6%2FlLeZ0bMhZDDtXn2ddUC8v50X%2FVGLSc3wwnYRCUQQL5RWfeDlwIqG32Lm5cDMafJtJVjUsXgrbM0%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f10c9b14d4fe684-LHR
+    body:
+      encoding: UTF-8
+      string: '{"status":200,"result":false}'
+  recorded_at: Thu, 12 Nov 2020 14:01:56 GMT
+recorded_with: VCR 6.0.0
